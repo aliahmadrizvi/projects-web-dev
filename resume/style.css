@@ -1,0 +1,65 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(#e1effd, #9eafe7);
+    color: #222222;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+
+.main {
+    text-align: center;
+}
+
+/* Profile Image */
+.main img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+/* Headings */
+h1,
+h2 {
+    color: #1E3A8A;
+    margin-bottom: 10px;
+}
+
+/* Paragraphs */
+p {
+    color: #222222;
+    line-height: 1.6;
+}
+
+/* Lists */
+.section ul li {
+    list-style-type: square;
+    list-style-position: outside;
+    margin-left: 20px;
+}
+
+/* Links */
+a {
+    color: #2563EB;
+    text-decoration: none;
+}
+
+/* Hover Effect */
+a:hover {
+    color: #1D4ED8;
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    color: #555;
+}
