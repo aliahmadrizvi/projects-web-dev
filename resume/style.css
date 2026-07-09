@@ -113,6 +113,10 @@ footer {
     color: #555555;
     font-size: 14px;
 }
+/*bold chize*/
+b{
+    color:black;
+}
 b:hover{
-    color: rgb(45, 5, 5);
+    color: rgb(99, 87, 87);
 }
