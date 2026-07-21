@@ -1,0 +1,127 @@
+Product Catalog Website
+
+A simple HTML Product Catalog website that showcases products from different categories with descriptions, prices, availability, images, specifications, and links to view more details.
+
+📌 Features
+
+Product categories:
+
+💻 Electronics
+
+👕 Clothing
+
+🏠 Home
+
+
+Easy navigation using internal links
+
+Product images
+
+Product descriptions
+
+Price and availability information
+
+Product specifications
+
+External "View Details" links
+
+Simple and beginner-friendly HTML structure
+
+
+🛠️ Technologies Used
+
+HTML5
+
+
+📂 Project Structure
+
+Product-Catalog/
+│── index.html
+└── README.md
+
+📖 Products Included
+
+Electronics
+
+Laptop
+
+Mobile Phone
+
+
+Clothing
+
+T-Shirt
+
+Jeans
+
+
+Home
+
+Table Lamp
+
+Throw Pillows
+
+
+🚀 How to Run
+
+1. Download or clone the repository.
+
+
+2. Open the project folder.
+
+
+3. Double-click index.html or open it in any web browser.
+
+
+
+🎯 Learning Concepts
+
+This project demonstrates:
+
+HTML document structure
+
+Headings and paragraphs
+
+Lists (ul, li)
+
+Images (img)
+
+Hyperlinks (a)
+
+Sections (section)
+
+IDs and page navigation
+
+Footer
+
+Semantic HTML
+
+
+🔮 Future Improvements
+
+Add CSS for modern styling
+
+Make the website fully responsive
+
+Add JavaScript search functionality
+
+Add shopping cart
+
+Add product filtering
+
+Add dark mode
+
+Improve accessibility
+
+
+👨‍💻 Author
+
+Ali Ahmad Rizvi
+
+B.Tech CSE Student
+Learning Web Development | HTML | CSS | JavaScript
+
+
+---
+
+⭐ If you like this project, consider giving it a star on GitHub!
