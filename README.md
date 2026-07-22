@@ -2,87 +2,97 @@
 
 Welcome to my **Web Development Projects** repository!
 
-This repository contains the projects I build while learning web development from the basics to advanced concepts. My goal is to become a skilled software engineer and pursue a Master's degree in Germany.
-
-## 🚀 Current Projects
-
-### 1. Resume Website
-
-A personal resume website built using HTML and CSS.
-
-**Features**
-
-* Personal information
-* Education
-* Skills
-* Projects
-* Achievements
-* Contact details
-
-### 2. Portfolio Website
-
-A modern personal portfolio website showcasing my journey as a developer.
-
-**Features**
-
-* Responsive Hero Section
-* Sticky Navigation Bar
-* About Me
-* Skills
-* Projects
-* Contact Section
-* Resume Button
+This repository contains the projects I build while learning **HTML, CSS, JavaScript, Git, and GitHub**. Each project represents a step in my journey toward becoming a skilled software developer.
 
 ---
 
-## 🛠️ Technologies I'm Learning
+## 📂 Projects
 
-* HTML5
-* CSS3
-* JavaScript *(Learning)*
-* React *(Upcoming)*
-* Git
-* GitHub
+### 📄 Resume Website (Version 1)
+A basic HTML resume website showcasing my profile, education, skills, projects, and contact details.
+
+### 📄 Resume Website (Version 2)
+An improved resume website with modern CSS styling, responsive layout, and enhanced UI.
+
+### 💼 Portfolio Website
+A personal portfolio website featuring:
+- Hero Section
+- About Me
+- Skills
+- Projects
+- Contact
+- Sticky Navigation
+- Smooth Scrolling
+
+### 🛍️ Product Catalog
+A product catalog website displaying:
+- Electronics
+- Clothing
+- Home Essentials
+- Product Details
+- Images & Specifications
+
+### 🎥 Media Project
+A media website featuring embedded YouTube content:
+- Daily Vlogs
+- Editz
+- Live IRL Streams
+- Comedy Videos
+
+### 🍽️ Recipe Website *(In Progress)*
+A recipe website with categories, delicious recipes, and responsive design.
 
 ---
 
-## 📅 Upcoming Projects
+## 🛠️ Technologies Used
 
-* Landing Page
-* Calculator
-* To-Do List
-* Weather App
-* Quiz App
-* Password Generator
-* Expense Tracker
-* Movie Search App
-* Student Management System
-* E-Commerce Website
+- HTML5
+- CSS3
+- JavaScript *(Learning)*
+- Git
+- GitHub
+
+---
+
+## 📁 Repository Structure
+
+```text
+projects-web-dev/
+│── Product-Catalog/
+│── Recipe-Website/
+│── media project/
+│── portfolio/
+│── resume/
+│── resume-version1/
+└── README.md
+```
+
+---
+
+## 🎯 Future Projects
+
+- Landing Page
+- Calculator
+- To-Do App
+- Weather App
+- Quiz App
+- Password Generator
+- Expense Tracker
+- Movie Search App
+- Student Management System
+- E-Commerce Website
 
 ---
 
 ## 🎯 Learning Goals
 
-* Build 20+ web development projects.
-* Learn modern frontend development.
-* Improve UI/UX design skills.
-* Create responsive websites.
-* Master Git and GitHub.
-* Become a full-stack developer.
-
----
-
-## 📂 Repository Structure
-
-```text
-projects-web-dev/
-│── 01-resume-website/
-│── 02-portfolio-website/
-│── 03-landing-page/
-│── 04-calculator/
-│── 05-todo-app/
-└── README.md
-```
+- Build 20+ web development projects
+- Master HTML, CSS & JavaScript
+- Learn React
+- Improve UI/UX design skills
+- Create responsive websites
+- Strengthen Git & GitHub workflow
+- Become a Full-Stack Developer
 
 ---
 
@@ -90,9 +100,10 @@ projects-web-dev/
 
 **Ali Ahmad Rizvi**
 
-* GitHub: https://github.com/aliahmadrizvi
-* LinkedIn: https://www.linkedin.com/in/ali-ahmad-rizvi-389311377/
+- 🌐 GitHub: https://github.com/aliahmadrizvi
+- 💼 LinkedIn: https://www.linkedin.com/in/ali-ahmad-rizvi-389311377/
 
 ---
 
-⭐ Thank you for visiting my repository! This repository will continue to grow as I build new projects and improve my web development skills.
+⭐ **Thank you for visiting my repository!**  
+More projects will be added as I continue my web development journey.
