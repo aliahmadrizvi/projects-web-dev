@@ -37,15 +37,20 @@ html{
     list-style: none;
 }
 .navbox ul li a{
+    display: block;
+    padding: 2px;
+    height: 29px;
+
      color: #F8F3E7;
     text-decoration: none;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
-    transition: color 0.3s ease;
+    transition: all 0.3s ease;
 
 }
 .navbox ul li a:hover{
     color: #C8A24D;
+    transform: translateY(-2px);
 }
 .hero{
     height: 90vh;
@@ -347,5 +352,63 @@ html{
     .categoryCard h3{
         font-size: 24px;
     }
+
+    /*about page*/
+    .about{
+        background: #F8F3E7;
+        min-height: 100vh;
+        padding: 80px 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 60px;
+        flex-wrap: wrap;
+
+    }
+    .aboutImage img{
+        width: 450px;
+        max-width: 100%;
+        border-radius: 20px;
+        box-shadow: 0 10px 25px rgba(36, 32, 32, 0.15);
+        transition: all 0.3 ease;
+    }
+    .aboutImage img:hover{
+        transform: scale(1.07);
+    }
+    .aboutContent{
+        max-width: 600px;
+    }
+    .aboutContent h2{
+        font-family: "Cormorant Garamond",serif;
+        font-size: 55px;
+        color: #0f4c3a;
+        margin-bottom: 20px;
+    }
+    .aboutContent p {
+        font-family: "Poppins",sans-serif;
+        color: #555;
+        line-height: 1.8;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+    .aboutContent .button{
+        display: inline-block;
+        margin-top: 10px;
+        padding: 14px 35px;
+        background-color: #0f4c3a;
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+        font-family: "Poppins",sans-serif;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        cursor: pointer;
+    }
+    .aboutContent .button:hover{
+        background: #C8A24D;
+        color: #0f4c3a;
+    }
+
+
 
 }
