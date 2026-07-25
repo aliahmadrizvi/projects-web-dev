@@ -353,7 +353,12 @@ html{
         font-size: 24px;
     }
 
-    /*about page*/
+   
+
+
+
+}
+ /*about page*/
     .about{
         background: #F8F3E7;
         min-height: 100vh;
@@ -376,7 +381,7 @@ html{
         transform: scale(1.07);
     }
     .aboutContent{
-        max-width: 600px;
+        max-width: 800px;
     }
     .aboutContent h2{
         font-family: "Cormorant Garamond",serif;
@@ -408,7 +413,162 @@ html{
         background: #C8A24D;
         color: #0f4c3a;
     }
+/*contact*/
+.contact{
+    min-height: 100vh;
+    background:#F8F3E7;
+    padding: 80px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+}
+.contact h2{
+    font-family: "Cormorant Garamond",serif;
+    font-size:55px;
+    color:#0f4c3a;
+    margin-bottom: 15px;
+
+}
+.contact p{
+    max-width:700px;
+    text-align:center;
+    font-family:"Poppins",sans-serif;
+    color:#555;
+    line-height:1.8;
+    margin-bottom:40px;
+
+
+}
+.contactForm{
+    width:100%;
+    max-width:650px;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+.contactForm input,.contactForm textarea{
+    padding:15px;
+    border:2px solid #ddd;
+    border-radius: 10px;
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+    outline:none;
+}
+.contactForm input:focus,.contactForm textarea:focus{
+    border-color:#C8A24D;
+}
+.contactForm button{
+    padding:15px;
+    background:#0f4c3a;
+    color:white;
+    border:none;
+    border-radius:10px;
+    font-family:"Poppins",sans-serif;
+    font-size:17px;
+    font-weight: 600;
+    cursor:pointer;
+    transition: all 0.3s ease;
+}
+.contactForm button:hover{
+    background:#c8a24d;
+    color: #0f4ac3;
+}
+/*footer*/
+.footer{
+    background:#0f4c3a;
+    color:#F8F3E7;
+    padding:60px 10% 20px;
+
+
+}
+.footerContent{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:40px;
+
+
+}
+.footerlogo img{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    margin-bottom:10px;
+    
+}
+.footerlogo h2{
+    font-family:"Cinzel",serif;
+    color:#c8a24d;
+    margin-bottom:10px;
+}
+.footerlogo p{
+    font-family:"Poppins",sans-serif;
+    line-height:1.7;
+    max-width:250px;
+}
+.footerLinks h3, .footerContact{
+    color:#c8a24d;
+    margin-bottom:10px;
+    font-family:"Cormorant Garamond",serif;
+    font-size:26px
+}
+.footerLinks,.footerContact{
+    display: flex;
+    flex-direction:column;
+}
+.footerLinks h3, .footerContact h3{
+    color:#c8a24d;
+    margin-bottom:15px;
+    font-family:"Cormorant Garamond",sans-serif;
+    font-size:28px;
+}
+
+.footerLinks a{
+    color:#F8F3E7;
+    text-decoration: none;
+    margin-bottom:10px;
+    font-family:"Poppins",sans-serif;
+    transition:.3s;
+    
 
 
 
+}
+.footerLinks a:hover{
+    color:#c8a23d;
+
+}
+.footerContact p{
+    margin-bottom:10px;
+    font-family: "Poppins",sans-serif;
+    transition:0.3s;
+
+
+}
+.support:hover{
+    color:#ddd;
+
+}
+
+.footer hr{
+    margin:35px 0 20px;
+    border:none;
+    border-top:1px solid rgba(225,225,225,.2);
+}
+.copyright{
+    text-align: center;
+    font-family: "Poppins",sans-serif;
+    font-size: 14px;
+    color: #ddd;
+}
+@media(max-width:768px){
+    .footerContent{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .footerlogo p{
+        max-width:100%;
+    }
 }
