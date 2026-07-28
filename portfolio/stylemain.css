@@ -80,9 +80,32 @@ section{
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0,0,0,.1);
 }
+/*button*/
+a{
+   text-decoration: none;
+   
+}
 .buttons{
     
    margin-top:20px;
+}
+.buttons a{
+    display:inline-block;
+    text-decoration:none;
+    background:#111827;
+    color:rgb(249, 241, 241);
+    padding:10px 20px;
+    margin:10px;
+    border-radius:8px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.buttons a:hover{
+   background:#1E40AF;
+    color:white;
+    transform:translateY(-2px);
+    
 }
 /* Footer */
 footer {
