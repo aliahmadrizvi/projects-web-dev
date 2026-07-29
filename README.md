@@ -2,45 +2,56 @@
 
 Welcome to my **Web Development Projects** repository!
 
-This repository contains the projects I build while learning **HTML, CSS, JavaScript, Git, and GitHub**. Each project represents a step in my journey toward becoming a skilled software developer.
+This repository contains the projects I build while learning **HTML, CSS, JavaScript, Git, and GitHub**. Every project represents a step in my journey toward becoming a skilled software developer.
 
 ---
 
 ## 📂 Projects
 
 ### 📄 Resume Website (Version 1)
-A basic HTML resume website showcasing my profile, education, skills, projects, and contact details.
+A simple HTML resume showcasing my profile, education, skills, and contact information.
 
 ### 📄 Resume Website (Version 2)
-An improved resume website with modern CSS styling, responsive layout, and enhanced UI.
+An improved resume with better UI, modern CSS styling, and a responsive layout.
 
 ### 💼 Portfolio Website
-A personal portfolio website featuring:
+A personal portfolio featuring:
 - Hero Section
 - About Me
 - Skills
 - Projects
 - Contact
 - Sticky Navigation
-- Smooth Scrolling
+- Responsive Design
 
 ### 🛍️ Product Catalog
 A product catalog website displaying:
 - Electronics
 - Clothing
 - Home Essentials
-- Product Details
-- Images & Specifications
+- Product Cards
+- Images & Product Details
+
+### 🎨 Card Project
+A collection of responsive card designs built using HTML and CSS to practice:
+- Flexbox
+- Hover Effects
+- Card Layouts
+- Responsive Design
 
 ### 🎥 Media Project
 A media website featuring embedded YouTube content:
 - Daily Vlogs
 - Editz
-- Live IRL Streams
+- Live Streams
 - Comedy Videos
 
 ### 🍽️ Recipe Website *(In Progress)*
-A recipe website with categories, delicious recipes, and responsive design.
+A responsive recipe website featuring:
+- Recipe Categories
+- Beautiful Food Cards
+- Responsive Layout
+- Modern UI
 
 ---
 
@@ -60,6 +71,7 @@ A recipe website with categories, delicious recipes, and responsive design.
 projects-web-dev/
 │── Product-Catalog/
 │── Recipe-Website/
+│── card-project/
 │── media project/
 │── portfolio/
 │── resume/
@@ -69,7 +81,7 @@ projects-web-dev/
 
 ---
 
-## 🎯 Future Projects
+## 🚀 Future Projects
 
 - Landing Page
 - Calculator
@@ -89,9 +101,10 @@ projects-web-dev/
 - Build 20+ web development projects
 - Master HTML, CSS & JavaScript
 - Learn React
-- Improve UI/UX design skills
-- Create responsive websites
-- Strengthen Git & GitHub workflow
+- Learn Node.js & Express
+- Improve UI/UX Design
+- Create Responsive Websites
+- Strengthen Git & GitHub Workflow
 - Become a Full-Stack Developer
 
 ---
@@ -105,5 +118,8 @@ projects-web-dev/
 
 ---
 
-⭐ **Thank you for visiting my repository!**  
-More projects will be added as I continue my web development journey.
+## ⭐ Support
+
+If you like this repository, consider giving it a **⭐ Star**.
+
+Thank you for visiting my repository! More exciting projects will be added as I continue my web development journey.
