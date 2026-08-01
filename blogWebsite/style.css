@@ -7,9 +7,54 @@ body{
     height: 100%;
     width: 100%;
 }
+a{
+    text-decoration: none;
+}
 .container{
     max-width: 95vw;
     padding: 2rem 1rem;
     margin: 0 auto;
    
+}
+.header_container{
+    margin-bottom: 2.8rem;
+}
+.header_title{
+    margin-bottom: 1rem;
+    font-size: 1.7rem;
+    line-height: 2rem;
+    font-weight:600;
+    text-align: center;
+}
+.header_description{
+    max-width: 768px;
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(105,99,99);
+}
+.main_container{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(4,fr);
+}
+.card_container{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(111, 109, 109) ;
+    border-radius: 2px;
+}
+.card_image_container{
+    position: relative;
+    overflow: hidden;
+    height: 14rem;
+}
+.card_image{
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.card_container_title{
+    
 }
