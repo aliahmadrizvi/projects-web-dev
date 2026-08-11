@@ -1,49 +1,91 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home | StudySync</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-    rel="stylesheet" />
-</head>
+    <title>Home | StudySync</title>
 
-<body>
-  <div class="haedercontainer">
-    <div class="headercontent">
-      <div class="headertitlecontainer">
-        <img src="../Recipe-Website//images/logo.png" class="headerimg" alt="logo" />
-        <span class="headertitle">StudySync</span>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header-container">
+      <div class="header-content">
+        <!-- Logo -->
+        <div class="header-title-container">
+          <img
+            src="../Recipe-Website/images/logo.png"
+            class="header-img"
+            alt="StudySync Logo"
+          />
+
+          <span class="header-title">StudySync</span>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="nav-container">
+          <ul class="navbar">
+            <li class="nav-list">
+              <a href="#" class="navbar-items">Home</a>
+            </li>
+
+            <li class="nav-list">
+              <a href="#" class="navbar-items">Features</a>
+            </li>
+
+            <li class="nav-list">
+              <a href="#" class="navbar-items">Pricing</a>
+            </li>
+
+            <li class="nav-list">
+              <a href="#" class="navbar-items">Blog</a>
+            </li>
+
+            <li class="nav-list">
+              <a href="#" class="navbar-items">About</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Contactbutton -->
+        <div class="contact-container">
+          <a href="#" class="contact">Contact Us</a>
+        </div>
       </div>
-      <div class="navcontainer">
-        <ul class="navbar">
-          <li class="nav-list">
-            <a href="#" class="navbar-items">Home</a>
-          </li>
-          <li class="nav-list">
-            <a href="#" class="navbar-items">Features</a>
-          </li>
-          <li class="nav-list">
-            <a href="#" class="navbar-items">Pricing</a>
-          </li>
-          <li class="nav-list">
-            <a href="#" class="navbar-items">Blog</a>
-          </li>
-          <li class="nav-list">
-            <a href="#" class="navbar-items">About</a>
-          </li>
-        </ul>
-      </div>
-      <div class="contactusconatiner">
-        <a href="#" class="contact">ContactUs</a>
-      </div>
+    </header>
+    <!-- hero section -->
+
+    <div class="content">
+      <section class="main-section">
+        <div class="content-left">
+          <p class="section-label">Very proud to introduce</p>
+          <h1 class="section-titl">Seamless Learing for Brighter Futures</h1>
+          <p class="section-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. At, amet
+            ut! Delectus nisi nesciunt saepe quidem ipsum incidunt sint
+            consectetur quo quas tempora repudiandae dolores fugit enim et,
+            assumenda vitae.
+          </p>
+          <div class="button-group">
+            <a href="#start" class="start-button">Start Now</a>
+            <a href="#tour" class="tour-button">Take tour</a>
+          </div>
+        </div>
+        <div class="content-right">
+          <div class="image-container">
+            <img src="../Recipe-Website/images/sweets.png" alt="" class="section-image">
+          </div>
+        </div>
+      </section>
     </div>
-  </div>
-</body>
-
+  </body>
 </html>
