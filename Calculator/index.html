@@ -5,77 +5,201 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body{
-            padding: 29px;
-            background-color: bisque;
-            width: 100%;
-            height: 100vh;
-            display: flex;
-            justify-content: center ;
-            align-items: center;
-        }
-        .calculatorContainer{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            width: 70vw;
-            border: 2px solid black;
-            height: 80vh;
-
-            
-
-
-        }
-        .userValue{
-            display: flex;
-            padding: 2rem;
-            justify-content: center;
-            align-items: center;
-        }
-        .userValue input{
-            font-family:'Times New Roman', Times, serif45;
-            width: 23rem;
-            height: 4rem;
-            font-size: 3rem;
-        }
-        .box{
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 3rem;
-            font-weight: 900;
-            display: flex;
-            text-align: center;
-            align-items: center;
-            justify-content: center;
-            width: 4rem;
-            height: 4rem;
-            border: 2px solid black;
-        }
-        .calculatorFuncton{
-            border: 2px solid black;
-            display: grid;
-            justify-content: center;
-            padding:1rem;
-            width: 20rem;
-            align-items: center;
-            row-gap: 2px;
-            column-gap: 13px;
-            grid-template-columns: auto auto auto auto;
-            
         
-        }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    padding: 29px;
+    background: linear-gradient(135deg, #8f7b68, #5e5147);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Calculator */
+.calculatorContainer {
+    width: 25rem;
+    min-height: 80vh;
+    padding: 1.5rem;
+
+    background: #ecd9d9;
+    border: 2px solid #222;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35);
+}
+
+/* Display */
+.userValue {
+    width: 100%;
+    padding: 1rem 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.userValue input {
+    width: 100%;
+    height: 4.5rem;
+
+    padding: 0.5rem 1rem;
+
+    font-family: "Times New Roman", serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+
+    text-align: right;
+
+    color: #222;
+    background: #f8f8f8;
+
+    border: 2px solid #222;
+    border-radius: 10px;
+
+    outline: none;
+}
+
+/* Button area */
+.calculatorFuncton {
+    width: 100%;
+    padding: 1rem;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 10px;
+
+    border: 2px solid #222;
+    border-radius: 15px;
+
+    background: #d6c1c1;
+}
+
+/* Buttons */
+.box {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: aliceblue;
+    color: #222;
+
+    border: 2px solid #222;
+    border-radius: 10px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 900;
+
+    cursor: pointer;
+
+    transition: all 0.15s ease;
+}
+
+/* Hover */
+.box:hover {
+    background: #d9eaff;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Click */
+.box:active {
+    transform: scale(0.93);
+    box-shadow: none;
+}
+
+/* Operator buttons */
+.box:nth-child(4),
+.box:nth-child(8),
+.box:nth-child(12),
+.box:nth-child(16),
+.box:nth-child(20) {
+    background: #f0b27a;
+}
+
+.box:nth-child(4):hover,
+.box:nth-child(8):hover,
+.box:nth-child(12):hover,
+.box:nth-child(16):hover,
+.box:nth-child(20):hover {
+    background: #e89a55;
+}
+
+/* AC and C */
+.box:first-child,
+.box:nth-child(19) {
+    background: #e57373;
+    color: white;
+}
+
+.box:first-child:hover,
+.box:nth-child(19):hover {
+    background: #d9534f;
+}
+
+/* Equal button */
+.box:last-child {
+    background: #6fcf97;
+    color: white;
+}
+
+.box:last-child:hover {
+    background: #4caf78;
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+
+    body {
+        padding: 15px;
+    }
+
+    .calculatorContainer {
+        width: 100%;
+        min-height: auto;
+        padding: 1rem;
+    }
+
+    .userValue input {
+        height: 4rem;
+        font-size: 2rem;
+    }
+
+    .calculatorFuncton {
+        padding: 0.7rem;
+        gap: 7px;
+    }
+
+    .box {
+        font-size: 1.5rem;
+    }
+}
+
+
 
     </style>
 </head>
 <body>
     <div class="calculatorContainer">
         <div class="userValue">
-        <input type="text">
+        <input type="text" id="value">
         </div>
         <div class="calculatorFuncton">
             <div class="box">ac</div>
@@ -85,7 +209,7 @@
             <div class="box">7</div>
             <div class="box">8</div>
             <div class="box">9</div>
-            <div class="box">X</div>
+            <div class="box" id="x">X</div>
             <div class="box">4</div>
             <div class="box">5</div>
             <div class="box">6</div>
@@ -100,5 +224,61 @@
             <div class="box">=</div>
         </div>
     </div>
+
+    <script>
+        let display = document.querySelector(".userValue input");
+        let buttons = document.querySelectorAll(".box");
+
+        buttons.forEach(function(button){
+            button.addEventListener("click",function(){
+                const value = button.textContent.trim();
+            if(value === "ac"){
+                display.value = "";
+            }
+            else if(value === "C"){
+                display.value = display.value.slice(0,-1)
+            }
+            else if(value === "="){
+                try{
+                    let expression  = display.value.replace(/X/g,"*");
+                    display.value  = eval(expression);
+
+                }
+                catch{
+                    display.value="error"
+                }
+            }
+            else if(value ==="()"){
+                display.value+="()";
+            }
+            else if(value ==="%"){
+                try{
+                    display.value = eval(display.value/100);
+                }
+                catch{
+                    display.value = "error"
+                }
+            }
+            else if(value ==="X"){
+                display.value += "*";
+            }
+            else if(value ==="/"){
+                display.value += "/"
+            }
+            else if(value ==="+"){
+                display.value += "+"
+            }
+            else if(value ==="-"){
+                display.value += "-"
+            }
+            else{
+                display.value += value;
+            }
+            }
+            
+            )
+        })
+        
+    </script>
 </body>
 </html>
